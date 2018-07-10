@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="Suijjte1"  parallel ="methods" thread-count = "5" >
+  <test name="Nojjpackage" >
+    <classes>
+       <class name="example1" />
+       <class name="example2" />
+    </classes>
+  </test>
+</suite>
+
+<!-- one test case may belong to mutiple groups -->

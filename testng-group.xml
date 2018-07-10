@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="SmokeTestCases"  parallel ="methods" thread-count = "5" >
+
+	<groups>
+	
+		<!-- <define name ="ALL">
+		
+			<include name ="g1"></include>
+			 <include name ="g2"></include> 
+		
+		</define> -->
+		<run>
+			 <include name ="g1"></include>
+			 <include name ="g2"></include>
+			<!--  <include name ="ALL"></include> --> 
+		</run>
+	</groups>
+  <test name="LoginTest">
+    <classes>
+       <class name="package26Groups.example1" />
+       <class name="package26Groups.example2" />
+       
+       <!-- all the test case with group id g1 and g2 from class example1 and example 2 of package26Groups -->
+    </classes>
+  </test>
+  </suite>

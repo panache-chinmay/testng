@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="Altro"  parallel ="methods" thread-count = "5" >
+  <test name="regression" >
+    <classes>
+       <class name="package25.example1" />
+       <class name="package25.example2" />
+    </classes>
+  </test>
+</suite>

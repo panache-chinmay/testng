@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="Altro"  parallel ="methods" thread-count = "5" >
+  <test name="LoginTest">
+    <classes>
+       <class name="package25.example1" />
+    </classes>
+  </test>
+  <test name="SearchTest" >
+    <classes>
+       <class name="package25.example2" />
+    </classes>
+  </test>
+</suite>
+
+<!-- paralle = classes -->

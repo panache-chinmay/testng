@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="Suijjte1" parallel ="methods" >
+  <test name="Nojjpackage" >
+    <classes>
+       <class name="package25.example1" />
+       <class name="package25.example2" />
+    </classes>
+  </test>
+</suite>
